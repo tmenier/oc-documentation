@@ -199,9 +199,6 @@ class Footer extends React.Component<any> {
                     <OpenInNewOutlined fontSize="inherit" />
                   </Box>
                 </a>
-                <Link className={classes.footerLinks} to="/blog">
-                  Blog
-                </Link>
               </Box>
             </Grid>
             <Grid item xs={6} md={3}>
@@ -227,7 +224,7 @@ class Footer extends React.Component<any> {
                 </Link>
                 <a
                   className={classes.footerLinks}
-                  href="https://four51.io/privacy-policy/"
+                  href="https://www.sitecore.com/trust/privacy-policy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
